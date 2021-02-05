@@ -1,0 +1,33 @@
+.news {
+  background: rgba(240, 240, 240, 0.6);
+  margin: 100px 20px 20px 20px;
+  padding: 30px;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.news__articles {
+  display: flex;
+}
+
+.news__article {
+  width: 30%;
+  margin: auto;
+}
+
+.button {
+  height: 40px;
+  width: 150px;
+  background: #10385e;
+  margin: auto;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #10385e;
+  border-radius: 10px;
+  cursor: pointer;
+}

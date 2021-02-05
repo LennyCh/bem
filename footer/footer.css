@@ -1,0 +1,20 @@
+.footer {
+  height: 60px;
+  background: #254461;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__button {
+  height: 20px;
+  width: 100px;
+  background: #10385e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #10385e;
+  border-radius: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}

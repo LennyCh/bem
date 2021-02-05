@@ -1,0 +1,22 @@
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 50;
+}
+.header__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__logo {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 50px;
+}
+
+.menu__link {
+  color: #4d4959;
+  font-size: 13px;
+  font-weight: 700;
+}

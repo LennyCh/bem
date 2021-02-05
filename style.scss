@@ -1,0 +1,40 @@
+@import "mixins";
+@import "header/header";
+@import "info/info";
+@import "news/news";
+@import "footer/footer";
+
+html, body {
+  height: 100%;
+  min-width: 320px;
+  font-family: Lato, sans-serif;
+}
+
+.wrapper {
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.container {
+  max-width: 1130px;
+  padding: 0 15px;
+}
+
+.main-screen__bg {
+  background: url(./img/bg.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.page {
+  @include position;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-screen {
+  flex: 1 0 100%;
+  position: relative;
+  &__bg {
+    @include position;
+  }
+}
